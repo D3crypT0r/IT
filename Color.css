@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile</title>
+    <style>
+        .label {
+            color: #999999;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+            width: 70px;
+            text-align: right;
+        }
+
+        .value {
+            color: #ff3366;
+            font-weight: bold;
+            font-size: 24px;
+            animation: bounce 1s infinite;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .profile-label {
+            color: #999999;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+            width: 60px;
+            text-align: right;
+            margin-left: 20px;
+        }
+
+        .profile-value {
+            color: #3366ff;
+            font-style: italic;
+            font-size: 15px;
+            animation: fade 2s infinite;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fade {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span class="label">Name:</span>
+        <span class="value">Syed Rizwan Hilal Shah</span>
+    </p>
+    <p>
+        <span class="profile-label">Profile:</span>
+        <span class="profile-value">Offensive Security Professional</span>
+    </p>
+</body>
+</html>
